@@ -21,7 +21,7 @@ const ContactForm = () => {
     const value = e.target.value;
     setUser((prevUser) => ({ ...prevUser, [name]: value }));
   };
-  const handlesubmit = () => {};
+  const handlesubmit = (e) => {};
 
   return (
     <form className={styles.contact_form} onSubmit={handlesubmit}>
